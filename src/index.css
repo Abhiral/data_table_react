@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.sc-iCfMLu .MuiSvgIcon-root{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
 }

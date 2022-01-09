@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { render } from 'react-dom';
@@ -35,14 +36,14 @@ function ExchangeRates() {
 
 
 
-function App() {
-  return (
-    <div>
-      <h2>My first Apollo app 🚀</h2>
-      <ExchangeRates />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div>
+//       <h2>My first Apollo app 🚀</h2>
+//       <ExchangeRates />
+//     </div>
+//   );
+// }
 
 render(
 

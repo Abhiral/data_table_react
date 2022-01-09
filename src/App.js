@@ -1,8 +1,12 @@
-import table from './table';
+import React from 'react';
+
+import Table from './table';
 
 function App() {
   return (
-    <table />
+    <div className="App">
+      <Table />
+    </div>
   );
 }
 

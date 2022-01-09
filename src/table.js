@@ -4,71 +4,149 @@ import { Add, Search } from '@material-ui/icons';
 
 const Container = styled.div`
     background-color: #fff;
+    margin: 50px;
     padding: 20px;
 `;
 
-const tableTitle = styled.div`
+const TableTitle = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 10px 5px;
 `;
 
-const tableHeading = styled.div`
-    background-color: #ddd;
-    text-align: center;    
+const TitleLeft = styled.div`
+    font-size: 20px;
     font-weight: 600;
-    padding: 5px;
 `;
 
-const tableBody = styled.div`
-    padding: 5px;
+const TableHeading = styled.div`
+    background-color: aliceblue;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: space-around;
 `;
 
-const titleRight = styled.div`
+const HeadingItem = styled.div`
+    
+`;
+
+const TableBody = styled.div`
+    padding: 5px;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+`;
+
+const BodyItem = styled.div`
+    
+`;
+
+const TitleRight = styled.div`
     display: flex;
 `;
 
-const searchContainer = styled.div`
+const SearchContainer = styled.div`
     border: 1px solid #ddd;
+    border-radius: 5px;
     position: relative;
-    padding: 3px 8px;
+    
 `;
 
 const Input = styled.input`
     border: none;
+    height: 93%;
+    padding: 0 5px;
 `;
 
-const addButton = styled.button`
-    background-color: blue;
+const AddButton = styled.button`
+    border: 1px solid #0d739b;
+    border-radius: 5px;
+    background-color: #0d739b;
     color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
-const table = () => {
+const Table = () => {
     return (
         <Container>
-            <tableTitle>
-                <titleLeft>
+            <TableTitle>
+                <TitleLeft>
                     Users
-                </titleLeft>
-                <titleRight>
-                    <searchContainer>
+                </TitleLeft>
+                <TitleRight>
+                    <SearchContainer>
                         <Input />
                         <Search />
-                    </searchContainer>
-                    <addButton>
-                        <Add />
+                    </SearchContainer>
+                    <AddButton>
+                        <Add style={{ fontSize: "16px" }} />
                         New User
-                    </addButton>
-                </titleRight>
-            </tableTitle>
-            <tableHeading>
-            
-            </tableHeading>   
-            <tableBody>
-
-            </tableBody>
+                    </AddButton>
+                </TitleRight>
+            </TableTitle>
+            <TableHeading>
+                <HeadingItem></HeadingItem>
+                <HeadingItem>Name</HeadingItem>
+                <HeadingItem>Username</HeadingItem>
+                <HeadingItem>Email</HeadingItem>
+                <HeadingItem>Phone</HeadingItem>
+                <HeadingItem>Website</HeadingItem>
+                <HeadingItem>Address</HeadingItem>
+            </TableHeading>   
+            <TableBody>
+                <BodyItem></BodyItem>
+                <BodyItem>Ram Bahadur Gharti</BodyItem>
+                <BodyItem>cltrlxaltF4</BodyItem>
+                <BodyItem>rambg@abiral.com</BodyItem>
+                <BodyItem>+12 3454565434</BodyItem>
+                <BodyItem>www.abiral.com</BodyItem>
+                <BodyItem>Carl Roth GmbH</BodyItem>
+            </TableBody>
+            <TableBody>
+                <BodyItem></BodyItem>
+                <BodyItem>Ram Bahadur Gharti</BodyItem>
+                <BodyItem>cltrlxaltF4</BodyItem>
+                <BodyItem>rambg@abiral.com</BodyItem>
+                <BodyItem>+12 3454565434</BodyItem>
+                <BodyItem>www.abiral.com</BodyItem>
+                <BodyItem>Carl Roth GmbH</BodyItem>
+            </TableBody>
+            <TableBody>
+                <BodyItem></BodyItem>
+                <BodyItem>Ram Bahadur Gharti</BodyItem>
+                <BodyItem>cltrlxaltF4</BodyItem>
+                <BodyItem>rambg@abiral.com</BodyItem>
+                <BodyItem>+12 3454565434</BodyItem>
+                <BodyItem>www.abiral.com</BodyItem>
+                <BodyItem>Carl Roth GmbH</BodyItem>
+            </TableBody>
+            <TableBody>
+                <BodyItem></BodyItem>
+                <BodyItem>Ram Bahadur Gharti</BodyItem>
+                <BodyItem>cltrlxaltF4</BodyItem>
+                <BodyItem>rambg@abiral.com</BodyItem>
+                <BodyItem>+12 3454565434</BodyItem>
+                <BodyItem>www.abiral.com</BodyItem>
+                <BodyItem>Carl Roth GmbH</BodyItem>
+            </TableBody>
+            <TableBody>
+                <BodyItem></BodyItem>
+                <BodyItem>Ram Bahadur Gharti</BodyItem>
+                <BodyItem>cltrlxaltF4</BodyItem>
+                <BodyItem>rambg@abiral.com</BodyItem>
+                <BodyItem>+12 3454565434</BodyItem>
+                <BodyItem>www.abiral.com</BodyItem>
+                <BodyItem>Carl Roth GmbH</BodyItem>
+            </TableBody>
         </Container>
     )
 }
 
-export default table
+export default Table
