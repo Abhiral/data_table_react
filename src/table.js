@@ -24,24 +24,20 @@ const TableHeading = styled.div`
     font-weight: 600;
     padding: 10px;
     display: flex;
-    flex-wrap: no-wrap;
-    align-items: center;
-    justify-content: space-around;
 `;
 
 const HeadingItem = styled.div`
-    
+    flex:1;
 `;
 
 const TableBody = styled.div`
     padding: 5px;
     display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
 `;
 
 const BodyItem = styled.div`
-    
+    flex:1;
 `;
 
 const TitleRight = styled.div`
@@ -83,7 +79,7 @@ const Table = () => {
                 <TitleRight>
                     <SearchContainer>
                         <Input />
-                        <Search />
+                        <Search style={{position:"absolute", top:"5px", right:"0px", fontSize: "16px", color:"#999", cursor:"pointer" }} />
                     </SearchContainer>
                     <AddButton>
                         <Add style={{ fontSize: "16px" }} />
