@@ -26,18 +26,34 @@ const TableHeading = styled.div`
     display: flex;
 `;
 
-const HeadingItem = styled.div`
+const HeadingItem1 = styled.div`
     flex:1;
 `;
 
+const HeadingItem2 = styled.div`
+    flex:2;
+`;
+
+const HeadingItem3 = styled.div`
+    flex:3;
+`;
+
 const TableBody = styled.div`
-    padding: 5px;
+    padding: 10px;
     display: flex;
     border-bottom: 1px solid #ddd;
 `;
 
-const BodyItem = styled.div`
+const BodyItem1 = styled.div`
     flex:1;
+`;
+
+const BodyItem2 = styled.div`
+    flex:2;
+`;
+
+const BodyItem3 = styled.div`
+    flex:3;
 `;
 
 const TitleRight = styled.div`
@@ -88,58 +104,81 @@ const Table = () => {
                 </TitleRight>
             </TableTitle>
             <TableHeading>
-                <HeadingItem></HeadingItem>
-                <HeadingItem>Name</HeadingItem>
-                <HeadingItem>Username</HeadingItem>
-                <HeadingItem>Email</HeadingItem>
-                <HeadingItem>Phone</HeadingItem>
-                <HeadingItem>Website</HeadingItem>
-                <HeadingItem>Address</HeadingItem>
+                <HeadingItem1>
+                    <input type="checkbox"></input>
+                </HeadingItem1>
+                <HeadingItem3>Name</HeadingItem3>
+                <HeadingItem2>Username</HeadingItem2>
+                <HeadingItem3>Email</HeadingItem3>
+                <HeadingItem3>Phone</HeadingItem3>
+                <HeadingItem3>Website</HeadingItem3>
+                <HeadingItem3>Address</HeadingItem3>
             </TableHeading>   
             <TableBody>
-                <BodyItem></BodyItem>
-                <BodyItem>Ram Bahadur Gharti</BodyItem>
-                <BodyItem>cltrlxaltF4</BodyItem>
-                <BodyItem>rambg@abiral.com</BodyItem>
-                <BodyItem>+12 3454565434</BodyItem>
-                <BodyItem>www.abiral.com</BodyItem>
-                <BodyItem>Carl Roth GmbH</BodyItem>
+                <BodyItem1>
+                    <input type="checkbox"></input>
+                </BodyItem1>
+                <BodyItem3>Ram Bahadur Gharti</BodyItem3>
+                <BodyItem2>cltrlxaltF4</BodyItem2>
+                <BodyItem3>rambg@abiral.com</BodyItem3>
+                <BodyItem3>+12 3454565434</BodyItem3>
+                <BodyItem3>www.abiral.com</BodyItem3>
+                <BodyItem3>Carl Roth GmbH</BodyItem3>
             </TableBody>
             <TableBody>
-                <BodyItem></BodyItem>
-                <BodyItem>Ram Bahadur Gharti</BodyItem>
-                <BodyItem>cltrlxaltF4</BodyItem>
-                <BodyItem>rambg@abiral.com</BodyItem>
-                <BodyItem>+12 3454565434</BodyItem>
-                <BodyItem>www.abiral.com</BodyItem>
-                <BodyItem>Carl Roth GmbH</BodyItem>
+                <BodyItem1>
+                    <input type="checkbox"></input>
+                </BodyItem1>
+                <BodyItem3>Ram Bahadur Gharti</BodyItem3>
+                <BodyItem2>cltrlxaltF4</BodyItem2>
+                <BodyItem3>rambg@abiral.com</BodyItem3>
+                <BodyItem3>+12 3454565434</BodyItem3>
+                <BodyItem3>www.abiral.com</BodyItem3>
+                <BodyItem3>Carl Roth GmbH</BodyItem3>
             </TableBody>
             <TableBody>
-                <BodyItem></BodyItem>
-                <BodyItem>Ram Bahadur Gharti</BodyItem>
-                <BodyItem>cltrlxaltF4</BodyItem>
-                <BodyItem>rambg@abiral.com</BodyItem>
-                <BodyItem>+12 3454565434</BodyItem>
-                <BodyItem>www.abiral.com</BodyItem>
-                <BodyItem>Carl Roth GmbH</BodyItem>
+                <BodyItem1>
+                    <input type="checkbox"></input>
+                </BodyItem1>
+                <BodyItem3>Ram Bahadur Gharti</BodyItem3>
+                <BodyItem2>cltrlxaltF4</BodyItem2>
+                <BodyItem3>rambg@abiral.com</BodyItem3>
+                <BodyItem3>+12 3454565434</BodyItem3>
+                <BodyItem3>www.abiral.com</BodyItem3>
+                <BodyItem3>Carl Roth GmbH</BodyItem3>
             </TableBody>
             <TableBody>
-                <BodyItem></BodyItem>
-                <BodyItem>Ram Bahadur Gharti</BodyItem>
-                <BodyItem>cltrlxaltF4</BodyItem>
-                <BodyItem>rambg@abiral.com</BodyItem>
-                <BodyItem>+12 3454565434</BodyItem>
-                <BodyItem>www.abiral.com</BodyItem>
-                <BodyItem>Carl Roth GmbH</BodyItem>
+                <BodyItem1>
+                    <input type="checkbox"></input>
+                </BodyItem1>
+                <BodyItem3>Ram Bahadur Gharti</BodyItem3>
+                <BodyItem2>cltrlxaltF4</BodyItem2>
+                <BodyItem3>rambg@abiral.com</BodyItem3>
+                <BodyItem3>+12 3454565434</BodyItem3>
+                <BodyItem3>www.abiral.com</BodyItem3>
+                <BodyItem3>Carl Roth GmbH</BodyItem3>
             </TableBody>
             <TableBody>
-                <BodyItem></BodyItem>
-                <BodyItem>Ram Bahadur Gharti</BodyItem>
-                <BodyItem>cltrlxaltF4</BodyItem>
-                <BodyItem>rambg@abiral.com</BodyItem>
-                <BodyItem>+12 3454565434</BodyItem>
-                <BodyItem>www.abiral.com</BodyItem>
-                <BodyItem>Carl Roth GmbH</BodyItem>
+                <BodyItem1>
+                    <input type="checkbox"></input>
+                </BodyItem1>
+                <BodyItem3>Ram Bahadur Gharti</BodyItem3>
+                <BodyItem2>cltrlxaltF4</BodyItem2>
+                <BodyItem3>rambg@abiral.com</BodyItem3>
+                <BodyItem3>+12 3454565434</BodyItem3>
+                <BodyItem3>www.abiral.com</BodyItem3>
+                <BodyItem3>Carl Roth GmbH</BodyItem3>
+            </TableBody>
+            <TableBody>
+                <BodyItem1>
+                    <input type="checkbox"></input>
+                </BodyItem1>
+                <BodyItem3>Ram Bahadur Gharti</BodyItem3>
+                <BodyItem2>cltrlxaltF4</BodyItem2>
+                <BodyItem3>rambg@abiral.com</BodyItem3>
+                <BodyItem3>+12 3454565434</BodyItem3>
+                <BodyItem3>www.abiral.com</BodyItem3>
+                <BodyItem3>Carl Roth GmbH</BodyItem3>
             </TableBody>
         </Container>
     )
